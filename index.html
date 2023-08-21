@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!--Navigation Baslangic-->
+        <div class="navigation">
+            <!--Logo Kismi Baslangic-->
+            <div class="logoContent alignCenter">
+                <div class="logoWrapper row alignCenter">
+                    <a href="#">
+                        <div class="logo">
+                            <img src="assets/img/mainLogo.png" alt="">
+                        </div>
+                        <h1 class="logoTitle">Acunmedya Akademi</h1>
+                    </a>
+                </div>
+            </div>
+            <!--Logo Kismi Bitis-->
+            <!--User Kismi Baslangic-->
+            <div class="auth alignCenter row">
+                <div class="logoWrapper profileNav">
+                    <div class="profilPic">
+                        <img src="assets/img/profilLogo.png" alt="">
+                    </div>
+                    <h1 class="profilTag">Emre Kurt</h1>
+                </div>
+            </div>
+            <!--User Kismi Bitis-->
+        </div>
+        <!--Navigation Bitis-->
+        <form id="newTodoForm" method="get" class="newTodoFormC">
+            <label for="title">Title:</label><input type="text" id="title" required>
+            <label for="completed">Completed:</label><input type="checkbox" id="completed" style="">
+            <label for="actor">Actor:</label><input type="number" id="actor" required>
+            <label for="assignee">Assignee:</label><input type="number" id="assignee" required>
+            <label for="sendNewTodo"></label><button id="sendNewTodo">Gönder</button>
+        </form>
+        <!--Content Baslangic-->
+        <div class="content">            
+            <div class="lds-dual-ring"></div>
+        </div>
+        <!--Content Bitis-->
+    </div>
+</body>
+</html>
